@@ -27,12 +27,17 @@ h2{
     color: cornflowerblue
 }
 
-p{
+.parag{
     margin-top: 30px;
     font-weight: bolder;
     text-align: center;font-family: 'Segoe UI';
     font-size: 25px;
     color: cornflowerblue
+}
+
+#rodape{
+  text-align: center;
+  color: lightsteelblue;  
 }
 
 
