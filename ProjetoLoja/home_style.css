@@ -70,7 +70,12 @@ a:link{
     text-decoration: none;
 }
 
-
+body{
+    background-image: url(wall.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 
 
