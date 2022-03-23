@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
     font-family: 'Impact';
     font-weight: 400;
     color: firebrick;
@@ -15,10 +15,12 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 400;
     font-family: 'Impact';
     color: firebrick;
+    background-color: black;
+
 }
 
 .parag{
@@ -26,7 +28,7 @@ h2{
     font-weight:400;
     text-align: center;
     font-family: 'Impact';
-    font-size: 25px;
+    font-size: 40px;
     color: firebrick;
     background-color: black;
     text-decoration: none;
@@ -48,20 +50,34 @@ table{
 
 .titulo{
     margin-top: 30px;
-    font-weight:400;
+    font-weight: 400;
     font-family: 'Impact';
-    font-size: 30px;
+    font-size: 50px;
     color: firebrick;
-    
 }
 
+.insta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#guy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
 
 #botaosuple{
-    width: 25%;
+    width: 30%;
     background: firebrick;
     color: black;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
     border: none;
     border-radius: 5px;
     transition: 1s all;
