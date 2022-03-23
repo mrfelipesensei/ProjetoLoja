@@ -45,7 +45,7 @@ table{
     border: 2px solid red;
     border-radius: 10px;
     text-align: center;
-    
+    background-color: white;
 }
 
 .titulo{
@@ -67,8 +67,8 @@ table{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -97,3 +97,14 @@ table{
 a:link{
     text-decoration: none;
 }
+
+#rodape{
+    text-align: center;
+    color: lightcoral;
+    font-size: 20px;  
+}
+
+body{
+    background-color: black;
+}
+
