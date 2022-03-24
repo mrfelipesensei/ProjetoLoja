@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Popeye Foods</title>
+</head>
+
+<body>
+    <h1>Popeye Foods</h1>
+
+    <img src="popeye_spinach.png" alt="popeye com espinafre">
+
+    <p>Um rico e varidado cardápio de marmitas saudáveis para você escolher</p>
+
+    <h2>Confira</h2>
+
+    <table class="cardapio">
+        <thead>
+            <tr>
+                <th>Proteínas</th>
+                <th>Carboidratos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Omelete de Espinafre</td>
+                <td>Salada de Brócolis</td>
+            </tr>
+            <tr>
+                <td>Atum com Quinoa</td>
+                <td>Abóbora Cozida</td>
+            </tr>
+            <tr>
+                <td>Lombinho Assado</td>
+                <td>Salada de Banana</td>
+            </tr>
+            <tr>
+                <td>Carne com Legumes</td>
+                <td>Aspargos</td>
+            </tr>
+            <tr>
+                <td>Almôndegas</td>
+                <td>Salada de Tomate</td>
+            </tr>
+            <tr>
+                <td>Frango Grelhado</td>
+                <td>Batata Doce Cozida</td>
+            </tr>
+            <tr>
+                <td>Bife à Role</td>
+                <td>Salada de Repolho</td>
+            </tr>
+            <tr>
+                <td>Patinho Moído</td>
+                <td>Salada de Maçã</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Monte sua Dieta</p>
+    
+    <div>
+        <fieldset>
+            <form action="thx.html" method="post">
+                <div>
+                    <label for="proteina">Proteínas:</label>
+                    <select id="proteina" name="proteina">
+                        <option value="op1">Omelete de Espinafre</option>
+                        <option value="op2">Atum com Quinoa</option>
+                        <option value="op3">Lombinho Assado</option>
+                        <option value="op4">Carne com Legumes</option>
+                        <option value="op5">Almôndegas</option>
+                        <option value="op6">Frango Grelhado</option>
+                        <option value="op7">Bife à Role</option>
+                        <option value="op7">Patinho Moído</option>
+                    </select>
+                </div>
+    
+
+                <div>
+                    <p>Quantidade:</p>
+
+                    <input type="radio" name="qt">
+                    <label for="qt10">10</label>
+                    
+                    <input type="radio" name="qt">
+                    <label for="qt20">20</label>
+
+                    <input type="radio" name="qt">
+                    <label for="qt30">30</label>
+                </div>
+                <br>
+
+                <div>
+                    <label for="carb">Carboidratos:</label>
+                    <select id="carb" name="carb">
+                        <option value="op1">Salada de Brócolis</option>
+                        <option value="op2">Abóbora Cozida</option>
+                        <option value="op3">Salada de Banana</option>
+                        <option value="op4">Aspargos</option>
+                        <option value="op5">Salada de Tomate</option>
+                        <option value="op6">Batata Doce Cozida</option>
+                        <option value="op7">Salada de Repolho</option>
+                        <option value="op7">Salada de Maçã</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Quantidade:</p>
+
+                    <input type="radio" name="qt2">
+                    <label for="qt10">10</label>
+                    
+                    <input type="radio" name="qt2">
+                    <label for="qt20">20</label>
+
+                    <input type="radio" name="qt2">
+                    <label for="qt30">30</label>
+                </div>
+                <br>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input class="input" type="text" name="nome" required> 
+                </div>
+                <br>
+                
+                <div>
+                    <label for="telefone">Telefone:</label>
+                <input class="input" type="tel" name="telefone" required>
+                </div>
+                <br>
+    
+                <div>
+                    <label for="email">Email:</label>
+                <input class="input" type="email" name="email" required>
+                </div>
+
+                <div>
+                    <p>Qual melhor horário para entrega?</p>
+                    <select id="hora" name="hora">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option> 
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <input type="button" value="Peça Já!">
+                </div>
+    
+            </form>
+        </fieldset>
+    </div>
+    <br>
+
+    <a href="home.html">
+        <input type="submit" value="Suplementos" id="botaosuple">
+    </a>
+
+    <a href="guia.html">
+        <input type="submit" value="Academias" id="botaoguia">
+    </a>
+    
+</body>
+</html>
