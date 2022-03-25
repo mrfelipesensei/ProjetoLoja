@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 65px;
     font-family: 'Impact';
     font-weight: 400;
     color: green;
@@ -8,7 +8,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 42px;
     font-weight: 400;
     font-family: 'Impact';
     color: green;
@@ -30,7 +30,7 @@ h2{
     font-weight:400;
     text-align: center;
     font-family: 'Impact';
-    font-size: 25px;
+    font-size: 30px;
     color: green;
 }
 
@@ -188,10 +188,8 @@ a:link{
 }
 
 
-
-
-
-#rodape{
+.rodape{
+    margin-top: 15px;
     text-align: center;
     color: lightgreen;
     font-size: 20px;  
