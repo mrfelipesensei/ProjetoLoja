@@ -1,9 +1,10 @@
 h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 65px;
     font-family: 'Impact';
     font-weight: 400;
     color: firebrick;
+    margin-bottom: 10px;
 }
 
 #popeye{
@@ -15,7 +16,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 400;
     font-family: 'Impact';
     color: firebrick;
@@ -24,7 +25,7 @@ h2{
 }
 
 .parag{
-    margin-top: 30px;
+    margin-top: 20px;
     font-weight:400;
     text-align: center;
     font-family: 'Impact';
@@ -69,7 +70,8 @@ table{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    width: 95%;
+    border-radius: 30px;
 }
 
 .botoes{
