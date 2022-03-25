@@ -34,16 +34,19 @@ h2{
     color: green;
 }
 
+body{
+    background-color: black;
+}
+
 /*Tabela*/
-
-
 table {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    
 }
 
-thead {
+th {
     background: linear-gradient(yellow,green);
     border-radius: 30px;
 
@@ -61,14 +64,24 @@ td, th {
     font-weight: 50;
     letter-spacing: 1.5px;
     color: rgb(5, 51, 29);
+    background-color: aliceblue;
 }
 
+/*Imagem*/
+#food{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 20px;
+}
 
 /*Fomulário*/
 .box{
     border-radius: 30px;
     border: 10px solid yellowgreen;
     border-style:outset;
+    background-color: aliceblue;
 
 }
 
@@ -125,7 +138,7 @@ td, th {
 }
 
 #pecaja{
-    width: 35%;
+    width: 38%;
     background: green;
     color: black;
     font-weight: bolder;
