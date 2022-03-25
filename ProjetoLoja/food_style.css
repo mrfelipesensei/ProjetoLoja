@@ -34,16 +34,42 @@ h2{
     color: green;
 }
 
+/*Tabela*/
 
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+thead {
+    background: linear-gradient(yellow,green);
+    border-radius: 30px;
 
 
+}
 
+td, th {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Impact';
+    padding: 9px 15px;
+    border: 5px solid yellowgreen;
+    border-style:outset;
+    border-radius: 15px;
+    font-weight: 50;
+    letter-spacing: 1.5px;
+    color: black;
+}
 
 
 /*Fomulário*/
 .box{
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 10px solid yellowgreen;
+    border-style:outset;
+
 }
 
 .form{
