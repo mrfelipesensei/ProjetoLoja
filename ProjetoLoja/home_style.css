@@ -3,10 +3,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    width: 25%; 
+    width: 32%; 
     padding: 15px 15px;
     box-sizing: border-box;
-    border:  5px solid red;
+    border:  5px solid blue;
     border-radius: 20px;
 }
 
@@ -19,18 +19,19 @@
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 65px;
+    margin-bottom: 15px;
     font-family: 'Impact';
     font-weight: 400;
-    color: firebrick;
+    color: lightblue;
 }
 
 h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 42px;
     font-weight: 400;
     font-family: 'Impact';
-    color: firebrick;
+    color: lightblue;
 }
 
 .parag{
@@ -38,8 +39,8 @@ h2{
     font-weight:400;
     text-align: center;
     font-family: 'Impact';
-    font-size: 25px;
-    color: firebrick;
+    font-size: 30px;
+    color: lightblue;
     background-color: black;
 }
 
@@ -48,16 +49,16 @@ h2{
     font-weight:400;
     text-align: center;
     font-family: 'Impact';
-    font-size: 25px;
-    color: firebrick;
+    font-size: 30px;
+    color: lightblue;
 }
 
 .botao{
-    width: 15%;
-    background: firebrick;
+    width: 20%;
+    background: lightblue;
     color: black;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -70,13 +71,13 @@ h2{
 }
 
 .botao:hover{
-    background:red;
+    background:rgba(80, 80, 211, 0.767);
     transform: scale(1.2);
 }
 
 .botoes{
     width: 20%;
-    background: firebrick;
+    background: lightblue;
     color: black;
     font-weight: bolder;
     font-size: 25px;
@@ -93,13 +94,13 @@ h2{
 }
 
 .botoes:hover{
-    background:red;
+    background:rgba(80, 80, 211, 0.767);
     transform: scale(1.5);
 }
 
 #rodape{
   text-align: center;
-  color: lightcoral;  
+  color: lightblue;  
 }
 
 a:link{
