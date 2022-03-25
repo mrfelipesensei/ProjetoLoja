@@ -1,7 +1,47 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Impact';
+    font-weight: 400;
+    color: green;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Impact';
+    color: green;
+}
+
+#popeye{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 5px solid green;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.parag{
+    margin-top: 30px;
+    font-weight:400;
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 25px;
+    color: green;
+}
 
 
 
 
+
+
+
+
+/*Fomulário*/
 .box{
     border-radius: 20px;
 }

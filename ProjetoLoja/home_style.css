@@ -6,15 +6,15 @@
     width: 25%; 
     padding: 15px 15px;
     box-sizing: border-box;
-    border:  2px solid red;
-    border-radius: 10px;
+    border:  5px solid red;
+    border-radius: 20px;
 }
 
 #popeye{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 20%;
 }
 
 h1{
