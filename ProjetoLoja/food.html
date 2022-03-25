@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Popeye Foods</title>
+    <link rel="stylesheet" href="food_style.css">
 </head>
 
 <body>
@@ -62,10 +63,11 @@
 
     <p>Monte sua Dieta</p>
     
-    <div>
-        <fieldset>
+    <div class="form">
+        <fieldset class="box">
             <form action="thx.html" method="post">
-                <div>
+                
+                <div class="itens">
                     <label for="proteina">Proteínas:</label>
                     <select id="proteina" name="proteina">
                         <option value="op1">Omelete de Espinafre</option>
@@ -81,20 +83,20 @@
     
 
                 <div>
-                    <p>Quantidade:</p>
+                    <p class="quant">Quantidade:</p>
 
                     <input type="radio" name="qt">
-                    <label for="qt10">10</label>
+                    <label class="qt" for="qt10">10</label>
                     
                     <input type="radio" name="qt">
-                    <label for="qt20">20</label>
+                    <label class="qt" for="qt20">20</label>
 
                     <input type="radio" name="qt">
-                    <label for="qt30">30</label>
+                    <label class="qt" for="qt30">30</label>
                 </div>
                 <br>
 
-                <div>
+                <div class="itens">
                     <label for="carb">Carboidratos:</label>
                     <select id="carb" name="carb">
                         <option value="op1">Salada de Brócolis</option>
@@ -109,46 +111,47 @@
                 </div>
 
                 <div>
-                    <p>Quantidade:</p>
+                    <p class="quant">Quantidade:</p>
 
                     <input type="radio" name="qt2">
-                    <label for="qt10">10</label>
+                    <label class="qt" for="qt10">10</label>
                     
                     <input type="radio" name="qt2">
-                    <label for="qt20">20</label>
+                    <label class="qt" for="qt20">20</label>
 
                     <input type="radio" name="qt2">
-                    <label for="qt30">30</label>
+                    <label class="qt" for="qt30">30</label>
                 </div>
                 <br>
 
                 <div>
-                    <label for="nome">Nome:</label>
-                    <input class="input" type="text" name="nome" required> 
+                    <label class="input" for="nome">Nome:</label>
+                    <input class="inputbox" type="text" name="nome" required> 
                 </div>
                 <br>
                 
                 <div>
-                    <label for="telefone">Telefone:</label>
-                <input class="input" type="tel" name="telefone" required>
+                    <label class="input" for="telefone">Telefone:</label>
+                <input class="inputbox" type="tel" name="telefone" required>
                 </div>
                 <br>
     
                 <div>
-                    <label for="email">Email:</label>
-                <input class="input" type="email" name="email" required>
+                    <label class="input" for="email">Email:</label>
+                <input class="inputbox" type="email" name="email" required>
                 </div>
 
                 <div>
-                    <p>Qual melhor horário para entrega?</p>
+                    <p id="qhora">Qual melhor horário para entrega?</p>
                     <select id="hora" name="hora">
                         <option value="manha">Manhã</option>
                         <option value="tarde">Tarde</option>
                         <option value="noite">Noite</option> 
                     </select>
                 </div>
+                <br>
                 
-                <input type="submit" value="Peça Já!">
+                <input id="pecaja" type="submit" value="Peça Já!">
                 
     
             </form>

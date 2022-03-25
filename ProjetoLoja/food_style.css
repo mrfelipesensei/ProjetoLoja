@@ -1,0 +1,81 @@
+
+
+
+
+.box{
+    border-radius: 20px;
+}
+
+.form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 40%; 
+}
+
+.itens{
+    font-size: 25px;
+}
+#proteina{
+    margin-top: 15px;
+    font-size: 20px;
+}
+#carb{
+    font-size: 20px; 
+}
+
+.quant{
+    font-size: 22px;
+}
+.qt{
+    font-size: 20px;
+}
+
+.input{
+    font-size: 25px;
+}
+.inputbox{
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#qhora{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#hora{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#pecaja{
+    width: 35%;
+    background: green;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#pecaja:hover{
+    background: greenyellow;
+    transform: scale(1.5);
+}
