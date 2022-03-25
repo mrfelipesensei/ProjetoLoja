@@ -103,7 +103,8 @@ h2{
     background: green;
     color: black;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -127,6 +128,7 @@ h2{
     color: black;
     font-weight: bolder;
     font-size: 25px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     transition: 1s all;
